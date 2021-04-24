@@ -1,4 +1,4 @@
-package leetcode.dailyquestions.dynamicprogramming;
+package leetcode.dailyquestions.dynamicprogramming.easy;
 
 
 /**

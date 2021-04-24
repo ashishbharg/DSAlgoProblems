@@ -1,6 +1,8 @@
-package leetcode.dailyquestions.strings;
+package leetcode.dailyquestions.strings.medium;
 
 /**
+ * https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/
+ *
  * You are given a string s and an integer k, a k duplicate removal consists of choosing k adjacent and equal letters from s
  * and removing them, causing the left and the right side of the deleted substring to concatenate together.
  *
