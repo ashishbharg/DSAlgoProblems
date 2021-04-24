@@ -1,4 +1,4 @@
-package algoexpert.arrays;
+package algoexpert.arrays.easy;
 
 /**
  * Given two non-empty array of integers, write a function that determins whether the second array is a subsequence of the first one.
