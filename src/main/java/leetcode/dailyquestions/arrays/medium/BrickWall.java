@@ -46,7 +46,7 @@ public class BrickWall {
         wallRow = Arrays.asList(1, 3, 1, 1);
         wall.add(wallRow);
         int count = leastBricks(wall);
-        System.out.println(count);
+        assert count == 2;
     }
 
     // Time Complexity - O(n.m) where n is the number of walls and m is the number of bricks in the wall
