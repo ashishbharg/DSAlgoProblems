@@ -40,12 +40,10 @@ public class N_AryTreePreOrderTraversal {
         Node root = new Node(1, children);
         List<Integer> preOrderList = preorderRecursively(root);
         String expected = "[1, 3, 5, 6, 2, 4]";
-        System.out.println(Arrays.toString(preOrderList.toArray()));
         assert expected.equals(Arrays.toString(preOrderList.toArray()));
 
         preOrderList = preorderIteratively(root);
         expected = "[1, 3, 5, 6, 2, 4]";
-        System.out.println(Arrays.toString(preOrderList.toArray()));
         assert expected.equals(Arrays.toString(preOrderList.toArray()));
     }
 
