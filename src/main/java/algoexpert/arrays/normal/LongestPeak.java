@@ -38,6 +38,7 @@ public class LongestPeak {
         assert count == 0;
     }
 
+    // Time Complexity - O(n) | Space Complexity - O(1)
     public static int longestPeak(int[] array) {
 
         int longestPeak = 0;
