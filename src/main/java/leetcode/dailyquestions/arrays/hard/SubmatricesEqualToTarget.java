@@ -79,7 +79,7 @@ public class SubmatricesEqualToTarget {
                 int sum = 0;
 
                 for (int row = 0; row < rowLength; row++) {
-                    sum += matrix[row][currCol] - (startCol > 0 ? matrix[row][startCol -1] : 0);
+                    sum += matrix[row][currCol] - (startCol > 0 ? matrix[row][startCol - 1] : 0);
                     count += map.getOrDefault(sum - target, 0);
                     map.put(sum, map.getOrDefault(sum, 0) + 1);
                 }
