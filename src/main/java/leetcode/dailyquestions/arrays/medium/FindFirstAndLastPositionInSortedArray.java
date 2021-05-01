@@ -59,7 +59,7 @@ public class FindFirstAndLastPositionInSortedArray {
         if (result[0] != -1 && result[1] != -1) {
             return;
         }
-        int midIndex = (startIndex + endIndex) / 2;
+        int midIndex = startIndex + ((endIndex - startIndex) / 2);
         if (target < nums[midIndex]) {
             searchRange(nums, target, startIndex, midIndex - 1, result);
         } else if (target > nums[midIndex]) {
