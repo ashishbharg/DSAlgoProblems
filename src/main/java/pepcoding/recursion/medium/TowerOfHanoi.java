@@ -1,4 +1,4 @@
-package pepcoding.recursion;
+package pepcoding.recursion.medium;
 
 /**
  * Tower of Hanoi is a mathematical puzzle where we have three rods and n disks. The objective of the puzzle is to move
