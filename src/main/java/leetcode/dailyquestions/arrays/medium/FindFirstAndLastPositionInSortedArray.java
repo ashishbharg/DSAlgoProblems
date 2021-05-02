@@ -32,9 +32,13 @@ public class FindFirstAndLastPositionInSortedArray {
     public static void main(String[] args) {
 
         int[] nums = {5,7,7,8,8,10};
-        int[] result =searchRange(nums, 6);
+        int[] result =searchRange(nums, 8);
         String expected = "[3, 4]";
-        System.out.println(Arrays.toString(result));
+        assert expected.equals(Arrays.toString(result));
+
+        nums = new int[] {5,7,7,8,8,10};
+        result =searchRange(nums, 6);
+        expected = "[-1, -1]";
         assert expected.equals(Arrays.toString(result));
     }
 
