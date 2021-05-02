@@ -26,7 +26,7 @@ import java.util.ArrayList;
  * Input: 78
  * Output: [tv, tw, tx, uv, uw, ux]
  */
-public class TranslatePhoneKeypadsToCombination {
+public class TranslateNumberCombinationToWords {
 
     public static void main(String[] args) {
         String str = "78";
