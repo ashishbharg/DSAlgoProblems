@@ -22,7 +22,7 @@ import java.util.List;
  *        I  J    K
  * Output: ["A", "B", "E", "F", "I", "J", "C", "D", "G", "K", "H"]
  */
-public class DFS {
+public class DepthFirstSearch {
 
     public static void main(String[] args) {
 
