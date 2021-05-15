@@ -46,11 +46,9 @@ public class RiverSizes {
                 {1, 0, 1, 1, 0}
         };
         List<Integer> riverSizes = riverSizes(matrix);
-        System.out.println(riverSizes);
         String expected = "[2, 1, 5, 2, 2]";
         assert expected.equals(riverSizes);
         riverSizes = riverSizesV2(matrix);
-        System.out.println(riverSizes);
         expected = "[2, 1, 5, 2, 2]";
         assert expected.equals(riverSizes);
 
@@ -62,11 +60,9 @@ public class RiverSizes {
                 {1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1}
         };
         riverSizes = riverSizes(matrix);
-        System.out.println(riverSizes);
         expected = "[2, 1, 21, 5, 2, 1]";
         assert expected.equals(riverSizes);
         riverSizes = riverSizesV2(matrix);
-        System.out.println(riverSizes);
         expected = "[2, 1, 21, 5, 2, 1]";
         assert expected.equals(riverSizes);
     }
