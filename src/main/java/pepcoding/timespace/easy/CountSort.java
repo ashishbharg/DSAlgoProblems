@@ -17,6 +17,9 @@ public class CountSort {
         display(array);
     }
 
+    /*
+        Time Complexity: O(n+k) | Space Complexity: O(k)
+     */
     public static void countSort(int[] arr, int min, int max) {
 
         int range = max - min + 1;
