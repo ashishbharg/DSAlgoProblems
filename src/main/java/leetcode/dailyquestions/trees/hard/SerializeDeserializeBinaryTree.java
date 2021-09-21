@@ -56,6 +56,7 @@ public class SerializeDeserializeBinaryTree {
     static int idx = 0;
     public static TreeNode deserialize(String data) {
 
+        idx = 0; // this is initialized to 0 only because other classes are making use of this method, hence need to reset it to 0 after every call.
         String[] chars = data.split(",");
         return deserialize(chars);
     }
