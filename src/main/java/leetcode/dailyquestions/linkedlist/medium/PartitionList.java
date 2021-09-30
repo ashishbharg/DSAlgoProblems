@@ -1,5 +1,7 @@
 package leetcode.dailyquestions.linkedlist.medium;
 
+import leetcode.dailyquestions.linkedlist.ListNode;
+
 /**
  * https://leetcode.com/problems/partition-list/
  *
@@ -34,8 +36,6 @@ public class PartitionList {
         assert result.next.next.next.val == 4;
         assert result.next.next.next.next.val == 3;
         assert result.next.next.next.next.next.val == 5;
-
-
     }
 
     public static ListNode partition(ListNode head, int x) {
@@ -77,13 +77,5 @@ public class PartitionList {
             temp.next = temp.next.next;
         }
         return head;
-    }
-
-    static class ListNode {
-       int val;
-       ListNode next;
-       ListNode() {}
-       ListNode(int val) { this.val = val; }
-       ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
 }
